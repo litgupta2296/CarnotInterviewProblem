@@ -1,0 +1,26 @@
+
+Python Version : 3.6.5
+
+To create a virtualenv : python3 -m venv myvenv
+
+To activate virtualenv:
+   Windows : myvenv\bin\activate
+   Linux/MacOS : source myvenv/bin/activate
+
+To install required packages:
+Once the virtualenv is activated, please run pip install -r requirements.txt to install all the required packages
+
+To run the code in local server:
+Run python manager.py runserver
+
+To run the code in specific port:
+Run python manage.py runserver <port>
+
+
+
+
+
+Urls:
+1- base_url/admin/ to load the admin portal
+2- base_url/students/<student_id>/ to get the student data based on student_id
+3- base_url/students/form/ to load the search by form page
